@@ -65,6 +65,19 @@ h2 > a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.buttonsAndIcons {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+i {
+    font-size: 3.236rem;
+}
+
 h2 > a:hover {
     background-color: #262626;
 }
