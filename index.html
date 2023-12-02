@@ -32,15 +32,17 @@
             </li>
         </ul>
     </nav>
+    <main>
 
+    
     <!-- Hero Section -->
 
     <section class="hero" id="about">
         <h1>&lt; Hi, I'm Clayton Critchfield <br><span class="software-developer">A Software Developer </span>&gt;</h1>
         <div class="buttonsAndIcons">
             <h2><a href="#">My Resume <i class="fa-solid fa-briefcase" style="color: #f2f2f2;"></i></a></h2>
-            <a href="#" target="_blank"><i class="fa-brands fa-linkedin" style="color: #242424;"></i></a>
-            <a href="#" target="_blank"><i class="fa-brands fa-github" style="color: #242424;"></i></a>
+            <a href="https://www.linkedin.com/in/clayton-critchfield/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #242424;"></i></a>
+            <a href="https://github.com/DeveloperDadd" target="_blank"><i class="fa-brands fa-github" style="color: #242424;"></i></a>
         </div>
         <p> I just graduated a coding <a href="https://www.awesomeinc.org/alumni" target="_blank"> bootcamp </a> this past August and would love to connect.
             I've been dabbling on and off in code the past few years but finally decided to take the plunge when my daughter was born. "It's now or never!"</p>
@@ -50,17 +52,41 @@
     </section>
 
     <!-- Tech Stack Icons, want to something here where they are constantly sliding across the screen * STRETCH * -->
+    <section class="techStack">
+        <h2>My Tech Stack:</h2>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </section>
 
     <!-- Projects Section -->
     <section id="projects">
+        <h2>Projects</h2>
         <div class="project-one">
-hahah
+            <img src="" alt="">
+            <div class="projectDescription">
+                <h3>To Do List</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum officia, id quaerat ducimus officiis veniam. Voluptate sequi tenetur iure. Dolorem, nobis perspiciatis corrupti velit nostrum eum repellendus tempora tempore.</p>
+            </div>
         </div>
         <div class="project-two">
-            hahaha
+            <img src="" alt="">
+            <div class="projectDescription">
+                <h3>React Restaraunt</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum officia, id quaerat ducimus officiis veniam. Voluptate sequi tenetur iure. Dolorem, nobis perspiciatis corrupti velit nostrum eum repellendus tempora tempore.</p>
+            </div>
         </div>
         <div class="project-three">
-hahah
+            <img src="" alt="">
+            <div class="projectDescription">
+                <h3>Word Masters</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum officia, id quaerat ducimus officiis veniam. Voluptate sequi tenetur iure. Dolorem, nobis perspiciatis corrupti velit nostrum eum repellendus tempora tempore.</p>
+            </div>
         </div>
     </section>
 
@@ -68,22 +94,27 @@ hahah
     <!-- Contact Form -->
     <section class="contact">
         <form action="MAILTO:clayton.critchfield@gmail.com">
-            <h3>Work with me!</h3>
-            <label for="firstName"> * First Name :</label>
+            <div class="formHeader">
+                <h3>Work with me!</h3>
+            </div>
+            <div class="formBody">
+            <label for="firstName"> First Name* :</label>
             <input type="text" name="firstName" id="firstName" required>
-            <label for="lastName"> * Last Name :</label>
+            <label for="lastName"> Last Name* :</label>
             <input type="text" name="lastName" id="lastName" required>
             <label for="phNum">Phone Number (optional):</label>
             <input type="tel" name="phNum" id="phNum" placeholder="Format: 012-345-6789">
-            <label for="email">E-mail:</label>
+            <label for="email">E-mail*:</label>
             <input type="email" name="email" id="email" required>
             <label for="info">Any additional info?</label>
-            <textarea name="info" id="info" cols="30" rows="10">No Additional Info</textarea>
-            <input type="submit" value="Send!">
+            <textarea name="info" id="info" cols="15" rows="5" maxlength="140">(Max 140 Characters)</textarea>
+            </div>
+            <div class="formSubmit">
+                <input class="submit" type="submit" value="Send!">
+            </div>
         </form>
     </section>
-    
-
+</main>
 
     <script src="./main.js"></script>
 </body>
