@@ -54,45 +54,56 @@
     <!-- Tech Stack Icons, want to something here where they are constantly sliding across the screen * STRETCH * -->
     <section class="techStack">
         <h2>My Tech Stack:</h2>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <div class="tech-logos-container">
+            <img src="./images/html.png" alt="HTML5 Logo">
+            <img src="./images/css.png" alt="CSS3 Logo">
+            <img src="./images/bootstrap.png" alt="Bootstrap Logo">
+            <img src="./images/js.png" alt="JavaScript Logo">
+            <img src="./images/react.png" alt="React Logo">
+            <img src="./images/python.png" alt="Python Logo">
+            <img src="./images/django.png" alt="Django Logo">
+            <img src="./images/git.png" alt="Git Logo">
+        </div>
+        
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
-        <div class="project-one">
+        <div class="projects-container">
+                <img src="" alt="">
+                <div class="projectDescription">
+                    <h3>To Do List</h3>
+                    <p>Built almost entirely in React and making use of the useState and useEffect hooks. 
+                    Users can add tasks, double click event listener functionality to be able to edit tasks on the fly, filter tasks by completion status, mark items complete, 
+                    and delete all completed tasks on the click of a button. Check it out and manage your ToDo's! </p>
+                </div>
             <img src="" alt="">
-            <div class="projectDescription">
-                <h3>To Do List</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum officia, id quaerat ducimus officiis veniam. Voluptate sequi tenetur iure. Dolorem, nobis perspiciatis corrupti velit nostrum eum repellendus tempora tempore.</p>
-            </div>
+                <div class="projectDescription">
+                    <h3>React Restaraunt</h3>
+                    <p>Also built with React, users can filter (with the useState and useEffect hooks) through different restaraunt menu data retrieved through a 3rd party 
+                        API using the Axios npm library to make a GET request. View the menu and get your tastebuds going! </p>
+                </div>
+                <img src="" alt="">
+                <div class="projectDescription">
+                    <h3>Word Masters</h3>
+                    <p>A replica of the popular game, Wordle, which NY times bought in 2022 for a few million dollars. This app is built with HTML, CSS, and of course, JavaScript
+                        to capture core game logic and functionality. A single word per day is fetched from a 3rd party API upon the page loading in browser using an async init function.
+                        Users can try to guess the word where they will be told if word is invalid (flashing red animation), if their guess is close (letter is highlighted yellow),
+                        or if their guess contains a correct letter in the right spot (letter highlighted green). If the user guesses all 5 tiles they will be rewarded with a fun rainbow animation!
+                        Play it for yourself!
+                    </p>
+                </div>
+            
+
         </div>
-        <div class="project-two">
-            <img src="" alt="">
-            <div class="projectDescription">
-                <h3>React Restaraunt</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum officia, id quaerat ducimus officiis veniam. Voluptate sequi tenetur iure. Dolorem, nobis perspiciatis corrupti velit nostrum eum repellendus tempora tempore.</p>
-            </div>
-        </div>
-        <div class="project-three">
-            <img src="" alt="">
-            <div class="projectDescription">
-                <h3>Word Masters</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum officia, id quaerat ducimus officiis veniam. Voluptate sequi tenetur iure. Dolorem, nobis perspiciatis corrupti velit nostrum eum repellendus tempora tempore.</p>
-            </div>
-        </div>
+        
     </section>
 
 
     <!-- Contact Form -->
     <section class="contact">
+        <h2>Contact Me</h2>
         <form action="MAILTO:clayton.critchfield@gmail.com">
             <div class="formHeader">
                 <h3>Work with me!</h3>
